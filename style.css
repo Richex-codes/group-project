@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+img{
+    width: 300px;
+    
+
+}
+
+nav{
+    width: 100%;
+    
+}
+
+.firstpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.firstpart a{
+   text-decoration: none;    
+   color: #adadad;
+   opacity: 0.7;
+}
+
+.firstpart a:hover{
+    opacity: 1;
+}
+
+i{
+   font-size: 40px;
+   color: #adadad;
+   opacity: 0.5;
+}
+.secondpart{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+i:hover{
+    opacity: 1;
+}
